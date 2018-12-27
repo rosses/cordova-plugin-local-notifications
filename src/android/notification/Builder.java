@@ -120,7 +120,7 @@ public final class Builder {
         Bundle extras = new Bundle();
 
         extras.putInt(Notification.EXTRA_ID, options.getId());
-        extras.putString(Options.EXTRA_SOUND, sound.toString());
+        //extras.putString(Options.EXTRA_SOUND, sound.toString());
 
         builder = findOrCreateBuilder()
                 .setDefaults(options.getDefaults())

@@ -410,12 +410,12 @@ public final class Notification {
         if (builder == null)
             return;
 
-        String sound = builder.getExtras().getString(Options.EXTRA_SOUND);
-        Uri soundUri = Uri.parse(sound);
+        //String sound = builder.getExtras().getString(Options.EXTRA_SOUND);
+        //Uri soundUri = Uri.parse(sound);
 
-        context.grantUriPermission(
+        /*context.grantUriPermission(
                 "com.android.systemui", soundUri,
-                Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                Intent.FLAG_GRANT_READ_URI_PERMISSION);*/
     }
 
     /**
