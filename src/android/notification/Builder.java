@@ -144,7 +144,7 @@ public final class Builder {
                 .setLights(options.getLedColor(), options.getLedOn(), options.getLedOff());
 
         if (sound != Uri.EMPTY && !isUpdate()) {
-            builder.setSound(sound);
+        //    builder.setSound(sound);
         }
 
         if (options.isWithProgressBar()) {
